@@ -1,11 +1,7 @@
-#.portraitCard, .overflowPortraitCard, .squareCard, .overflowSquareCard {
-#    width: 7%;
-#}
-
 /*Library Page - Align Posters to Center */
 .padded-right-withalphapicker {
-padding-right:1.75% !important;
-padding-left:1.75% !important;
+  padding-right:1.75% !important;
+  padding-left:1.75% !important;
 }
 
 /*Green Indicators*/
@@ -26,7 +22,7 @@ padding-left:1.75% !important;
 }
 
 
-/* Hide "please login" text, margin is to prevent login form moving too far up */
+/* Hide "please login" text */
 #loginPage h1 {
   display: none;
 }
