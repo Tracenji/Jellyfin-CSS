@@ -1,0 +1,32 @@
+#.portraitCard, .overflowPortraitCard, .squareCard, .overflowSquareCard {
+#    width: 7%;
+#}
+
+/*Library Page - Align Posters to Center */
+.padded-right-withalphapicker {
+padding-right:1.75% !important;
+padding-left:1.75% !important;
+}
+
+/*Green Indicators*/
+.playedIndicator {background: rgba(93, 208, 0, 0.90);}
+/* Make count indicator icon red */
+.countIndicator {background: rgba(208, 93, 70, 0.90);}
+
+/*YELLOW BUTTONS*/
+.headerRight {
+  color: yellow;
+}
+.headerLeft {
+  color: yellow;
+}
+/*YELLOW LEFT DRAWER*/
+.mainDrawer-scrollContainer {
+  color: yellow;
+}
+
+
+/* Hide "please login" text, margin is to prevent login form moving too far up */
+#loginPage h1 {
+  display: none;
+}
