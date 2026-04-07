@@ -22,8 +22,15 @@
 }
 
 /* Yellow Hover and Played Checkmark */
-.paper-icon-button-light:hover, .raised.homeLibraryButton:hover, .button-flat:hover, .playstatebutton-icon-played, .ratingbutton-icon-withrating, .paper-icon-button-light:hover:not(:disabled), .emby-tab-button:hover, .selectLabelFocused, .inputLabelFocused, .textareaLabelFocused, .buttonActive, .button-link {
+/* PLAYED CHECKMARK*/
+.playstatebutton-icon-played {
 	color: yellow !important;
+}
+/* YELLOW HOVER ON EPISODE/SEASON BUTTON ICONS */
+div.listViewUserDataButtons button:hover .material-icons,
+div.cardOverlayContainer button:hover .material-icons,
+div.mainDetailButtons button:hover .material-icons {
+  color: yellow !important;
 }
 
 
